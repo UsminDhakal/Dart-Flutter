@@ -39,16 +39,19 @@ void main() {
       checkBalance(balance);
     }
 
-    if(choice == "2"){
+    else if(choice == "2"){
       balance = withdraw(balance);
     }
 
-    if(choice == "3"){
+    else if(choice == "3"){
       balance = deposit(balance);
     }
 
-    if(choice == "q"){
+    else if(choice == "q"){
       break;
+    }
+    else{
+      print("Invalid choice");
     }
   }
 }
