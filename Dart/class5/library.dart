@@ -28,6 +28,7 @@ class PrintedBook extends Book {
   @override
   void getDetails() {
     print("Printed Book Title: $title, Author: $author, Pages: $pages");
+    
   }
 }
 
